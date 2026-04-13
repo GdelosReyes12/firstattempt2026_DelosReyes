@@ -33,6 +33,8 @@ Bash
 # Start the development server
 npm run dev
 
+```
+
 
 # AI Tools Used
 Gemini (prompt)
@@ -69,17 +71,31 @@ Explain the "Vibe & Logic" for desktop transition and the "Verification Tech" fo
 (Used a PDF containing images and flow of the mobile version of the App)
 
 
+
+
 # Screenshots
 All original design assets are located in the images/ folder.
 
-images/Login_page.png — Login & Registration.
+### 1. Login & Registration
 
-images/Home_page.png — Dashboard of the website.
+ ![Login & Registration](./images/Login_page.png)
 
-images/Applications_page.png — Applications section.
+### 1. Dashboard of the website
 
-images/Profile_page.png — Profile section of the user.
+![Dashboard of the website](./images/Home_page.png)  
 
-images/SteachMode_feature.png — A Function in the Profile Section.
+### 1. Applications section
 
-images/DeclineOffer_feature — A function in the Applications Section.
+![Applications section](./images/Applications_page.png)
+
+### 1. Profile section of the user
+
+![Profile section of the user](./images/Profile_page.png)
+
+### 1. Stealth Mode
+
+![StealthMode](./images/StealthMode_feature.png)
+
+### 1. Decline Offer
+
+![A function in the Applications Section](./images/DeclineOffer_feature.png)

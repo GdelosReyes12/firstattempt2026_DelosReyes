@@ -72,6 +72,19 @@ Explain the "Vibe & Logic" for desktop transition and the "Verification Tech" fo
 
 
 
+### Master Prompt Used
+> "I have a single-file HTML app called blue-link.html for an Ateneo de Davao alumni portal. It uses vanilla HTML, CSS, and JavaScript — no framework. Help me convert it into a fully installable, offline-ready Progressive Web App. I need: (1) a manifest.json with Ateneo navy #0E1E36 theme and gold #C9A84C accent, (2) a service worker sw.js using Cache-First strategy for all static assets, and (3) the correct script tag to register the SW in my HTML file. The app should load instantly offline after first visit."
+
+
+### AI Hallucinations / Manual Fixes
+| Issue | Fix |
+|-------|-----|
+| SW tried to cache relative URLs without a base — failed silently | Changed all paths to absolute `/blue-link.html` format |
+| `manifest.json` used `"display": "fullscreen"` — hides browser chrome on iOS | Changed to `"standalone"` for correct behavior |
+
+
+
+
 
 # Screenshots
 All original design assets are located in the images/ folder.

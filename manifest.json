@@ -1,0 +1,42 @@
+{
+  "name": "Blue Links — Ateneo de Davao Alumni Portal",
+  "short_name": "Blue Links",
+  "description": "The official alumni portal for Ateneo de Davao University. Rediscover. Reunite. Reconnect.",
+  "start_url": "/blue-link.html",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#08152A",
+  "theme_color": "#0E1E36",
+  "scope": "/",
+  "lang": "en-PH",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "productivity", "social"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Job Board",
+      "short_name": "Jobs",
+      "description": "View Blue Knight Priority job listings",
+      "url": "/blue-link.html#jobs"
+    },
+    {
+      "name": "My Applications",
+      "short_name": "Applications",
+      "description": "Track your job applications",
+      "url": "/blue-link.html#apps"
+    }
+  ]
+}
